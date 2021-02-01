@@ -13,7 +13,6 @@
     })
     console.log(onMin);
 
-
     // Arrow 함수 이용.
     
 

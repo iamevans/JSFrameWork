@@ -1,0 +1,51 @@
+
+1. 설치 
+    Vue 3.X Version 설치
+        npm i -g @vue/cli        
+
+2. 프로젝트 생성
+    Vue 3.X 프로젝트 작성
+        vue create <project-name>
+
+3. Router 설치 - Chap02
+    npm i vue-router@4
+
+4. 시작
+    npm run serve
+
+5. 빌드
+    num run build
+
+bootstrap
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    or
+    @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+
+
+A01Currency DOM
+<div>
+    <h3>1. Currency</h3>
+    <br>
+
+    <div>
+    Qty: <input type="text" class="form-control"><br>
+    Cost: <input type="text" class="form-control"><br>
+    Country: 
+        <select class="form-control">
+            <option></option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+        Total: <span></span>
+    </div>
+</div>
+
+
+자료
+    todoList: [
+        { id: 1, text: "첫 번째 할 일", done: true },
+        { id: 2, text: "두 번째 할 일", done: false },
+        { id: 3, text: "세 번째 할 일", done: false }
+    ]
