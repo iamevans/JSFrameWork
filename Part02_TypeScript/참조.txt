@@ -1,9 +1,9 @@
-
-
 작업 환경 설정
 
+npm init -y 
+npm i //json파일에 등록된 모든 모둘 설치
 1. TypeScript 설치
-    npm i -g typescript
+    npm i -g typescript //컴퓨터 어디에서든지 사용 할 수 있도록 위치에 설치 => -g
 
 
     컴파일: 

@@ -3,9 +3,9 @@
 namespace A02Type {
 
     // Type
-    let name= 'NolBu';
-    let age = 30;
-    let check = true;
+    let name : string = 'NolBu';
+    let age : number = 30;
+    let check : boolean = true;
 
     console.log(`${name}, ${age}, ${check}`);
 
